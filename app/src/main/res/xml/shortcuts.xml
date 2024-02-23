@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="home_shortcut"
+        android:icon="@mipmap/ic_home"
+        android:shortcutShortLabel="@string/home">
+
+    <intent
+        android:action="HOME_SHORTCUT"
+        android:targetPackage="de.ur.mi.android.booktrackerapp"
+        android:targetClass="de.ur.mi.android.booktrackerapp.CustomFragmentActivity"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="search_shortcut"
+        android:icon="@mipmap/ic_search"
+        android:shortcutShortLabel="@string/search">
+
+        <intent
+            android:action="SEARCH_SHORTCUT"
+            android:targetPackage="de.ur.mi.android.booktrackerapp"
+            android:targetClass="de.ur.mi.android.booktrackerapp.CustomFragmentActivity"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="alarm_shortcut"
+        android:icon="@mipmap/ic_alarm"
+        android:shortcutShortLabel="@string/alarm_shortcut">
+
+        <intent
+            android:action="ALARM_SHORTCUT"
+            android:targetPackage="de.ur.mi.android.booktrackerapp"
+            android:targetClass="de.ur.mi.android.booktrackerapp.CustomFragmentActivity"/>
+    </shortcut>
+
+</shortcuts>

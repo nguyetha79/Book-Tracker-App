@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.105" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/account_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/alarm_icon.xml" value="0.1985" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/button_shape.xml" value="0.1435" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/check_circle_icon.xml" value="0.132" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/custom_button.xml" value="0.1975" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/delete_all_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/delete_multi_icon.xml" value="0.2105" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/email_icon.xml" value="0.2025" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/home_icon.xml" value="0.1115" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1575" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.124" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.105" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.152" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.105" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/login_etd.xml" value="0.2025" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/logout_icon.xml" value="0.2425" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/menu_icon.xml" value="0.124" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/person_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/play_icon.xml" value="0.1985" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/search_filter_icon.xml" value="0.141" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/drawable/search_icon.xml" value="0.141" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/activity_add_book.xml" value="0.25" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/activity_custom_fragment.xml" value="0.1453125" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/activity_destination.xml" value="0.2546875" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/activity_login.xml" value="0.28254847645429365" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/activity_register.xml" value="0.2546875" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/activity_search_book.xml" value="0.159375" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/activity_show_all_books.xml" value="0.125" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/activity_show_detail_book.xml" value="0.25" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/activity_update_book.xml" value="0.2546875" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/book_item_model_search.xml" value="0.165" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/book_item_model_show.xml" value="0.2546875" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/change_password.xml" value="0.20811965811965813" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/fragment_add.xml" value="0.159375" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/fragment_alarm_manager.xml" value="0.165" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/fragment_custom.xml" value="0.159375" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/fragment_search.xml" value="0.159375" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/fragment_show_all_books.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/fragment_show_detail.xml" value="0.159375" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/fragment_time_picker.xml" value="0.1" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/fragment_update.xml" value="0.159375" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/reset_password.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/layout/widget.xml" value="0.25" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/menu/bottom_nav.xml" value="0.221875" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/menu/bottom_navigation.xml" value="0.159375" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/menu/drawer_menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/menu/menu_custom.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/menu/my_menu.xml" value="0.375" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/menu/nav_bottom.xml" value="0.190625" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/menu/nav_view.xml" value="0.2546875" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.105" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.105" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/xml/appwidget_info.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/xml/custom_button.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Nguyet Ha/OneDrive/Desktop/Github/vhb-android-ss2022-team-16-book-tracker-app/app/src/main/res/xml/shortcuts.xml" value="0.2546875" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

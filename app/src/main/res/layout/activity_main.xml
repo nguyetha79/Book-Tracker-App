@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView_design_7"
+            android:layout_width="496dp"
+            android:layout_height="680dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginBottom="244dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/untitled_design__9_" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="405dp"
+            android:layout_height="412dp"
+            android:layout_marginTop="352dp"
+            android:layout_marginEnd="96dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/untitled_design__6_" />
+
+        <RelativeLayout
+            android:id="@+id/Rlayout_app_overview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp">
+
+                <TextView
+                    android:id="@+id/app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/app_name"
+                    android:textColor="@color/color_primary"
+                    android:textSize="33sp" />
+
+                <ImageView
+                    android:id="@+id/icon_book"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_below="@id/app_name"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/book_love_icon" />
+
+                <Button
+                    android:id="@+id/btn_continue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/icon_book"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/custom_button"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="8dp"
+                    android:paddingRight="35dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/btn_continue"
+                    android:textColor="@color/bgr_color"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:id="@+id/Llayout_bgr_music"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btn_continue"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:weightSum="3">
+
+                        <Button
+                            android:id="@+id/btn_play"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:backgroundTint="@null"
+                            android:background="@drawable/play_icon"
+                            android:layout_weight="1"/>
+
+                        <Button
+                            android:id="@+id/btn_stop"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:backgroundTint="@null"
+                            android:background="@drawable/stop_icon"
+                            android:layout_weight="1"/>
+                </LinearLayout>
+        </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

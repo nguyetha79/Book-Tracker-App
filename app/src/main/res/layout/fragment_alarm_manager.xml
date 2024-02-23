@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Alarm.AlarmManagerFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="728dp"
+            android:layout_height="798dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="108dp"
+            android:src="@drawable/untitled_design__7_"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="352dp"
+            android:src="@drawable/untitled_design__3_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/Rlayout_alarm_reading_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="140dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="No Alarm set"
+                android:textColor="@color/color_secondary"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/btn_timepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_alarm"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@color/color_primary"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingLeft="35dp"
+                android:paddingTop="8dp"
+                android:paddingRight="35dp"
+                android:paddingBottom="5dp"
+                android:text="Open time picker"
+                android:textColor="@color/bgr_color"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_timepicker"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/color_primary"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingLeft="35dp"
+                android:paddingTop="8dp"
+                android:paddingRight="35dp"
+                android:paddingBottom="5dp"
+                android:text="Cancel alarm"
+                android:textColor="@color/bgr_color"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

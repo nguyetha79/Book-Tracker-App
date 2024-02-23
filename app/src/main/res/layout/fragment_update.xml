@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Home.UpdateFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_update"
+                android:layout_width="match_parent"
+                android:layout_height="520dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                app:cardBackgroundColor="@color/add_bgr_color"
+                app:cardCornerRadius="13dp">
+
+                <RelativeLayout
+                    android:id="@+id/RLayout_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/Llayout_update_status_curr_page"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/Rlayout_title_update"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tv_title_update"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="@string/tv_title"
+                                android:textColor="@color/fragment_text_color"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/tv_title_content_update"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tv_title_update"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="@string/book_title"
+                                android:textColor="@color/color_primary"
+                                android:textSize="32sp" />
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:id="@+id/Llayout_status_update"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Rlayout_title_update"
+                            android:layout_marginTop="20dp"
+                            android:weightSum="3">
+
+                            <TextView
+                                android:id="@+id/tv_status_update"
+                                android:layout_width="103dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="@string/tv_status"
+                                android:textColor="@color/fragment_text_color"
+                                android:textSize="25sp" />
+
+                            <Spinner
+                                android:id="@+id/spinner_update"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:background="@color/bgr_color"
+                                android:spinnerMode="dropdown"
+                                android:theme="@style/SpinnerTheme" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/Llayout_curr_page_update"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Llayout_status_update"
+                            android:layout_marginTop="25dp"
+                            android:visibility="gone"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:id="@+id/editText_curr_page_update"
+                                android:layout_width="184dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="@string/tv_curr_page"
+                                android:textColor="@color/fragment_text_color"
+                                android:textSize="25sp" />
+
+                            <RelativeLayout
+                                android:id="@+id/Rlayout_note_update"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardView_curr_page_update"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:backgroundTint="@color/bgr_color">
+
+                                    <EditText
+                                        android:id="@+id/tv_num_curr_page_update"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:gravity="center"
+                                        android:inputType="number"
+                                        android:paddingLeft="30dp"
+                                        android:paddingTop="7dp"
+                                        android:paddingRight="30dp"
+                                        android:paddingBottom="5dp"
+                                        android:textColor="@color/color_primary"
+                                        android:textSize="22sp" />
+                                </androidx.cardview.widget.CardView>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/Llayout_update_status_curr_page"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="206dp"
+                            android:padding="15dp">
+
+                            <TextView
+                                android:id="@+id/tv_note"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:paddingLeft="3dp"
+                                android:paddingRight="3dp"
+                                android:text="@string/tv_note"
+                                android:textColor="@color/fragment_text_color"
+                                android:textSize="25sp" />
+
+                            <ScrollView
+                                android:id="@+id/scroll_view_note"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_below="@id/tv_note"
+                                android:layout_marginTop="1dp">
+
+                                <EditText
+                                    android:id="@+id/editText_note_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tv_note"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:hint="Type your note"
+                                    android:textColor="@color/color_primary"
+                                    android:textSize="20sp" />
+                            </ScrollView>
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btn_update_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardView_update"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingLeft="35dp"
+                android:paddingTop="8dp"
+                android:paddingRight="35dp"
+                android:paddingBottom="5dp"
+                android:text="@string/btn_update"
+                android:textColor="@color/bgr_color"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

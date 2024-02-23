@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout_book_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_book_item_show"
+        android:layout_width="195dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        app:cardBackgroundColor="@color/cardview_book_item_bgr_color2"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:id="@+id/Rlayout_book_item_show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:id="@+id/Rlayout_cover_detail_btn_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/iv_cover_book_item_show"
+                    android:layout_width="60dp"
+                    android:layout_height="75dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="3dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <Button
+                    android:id="@+id/btn_detail"
+                    android:layout_width="65dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/iv_cover_book_item_show"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:backgroundTint="@color/color_primary"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
+                    android:text="@string/btn_detail"
+                    android:textAlignment="center"
+                    android:textColor="@color/bgr_color"
+                    android:textSize="8dp" />
+            </RelativeLayout>
+
+
+            <!--            <Button-->
+            <!--                android:id="@+id/btn_multi_check"-->
+            <!--                android:layout_width="26dp"-->
+            <!--                android:layout_height="26dp"-->
+            <!--                android:layout_alignParentTop="true"-->
+            <!--                android:layout_alignParentEnd="true"-->
+            <!--                android:layout_marginStart="10dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:layout_marginEnd="10dp"-->
+            <!--                android:layout_marginBottom="20dp"-->
+            <!--                android:background="@drawable/check_circle_icon"-->
+            <!--                app:backgroundTint="@null" />-->
+
+            <RelativeLayout
+                android:id="@+id/Rlayout_title_author_book_item_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/Rlayout_cover_detail_btn_show">
+
+                <TextView
+                    android:id="@+id/tv_title_book_item_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="2dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="3dp"
+                    android:text="@string/book_title"
+                    android:textColor="@color/color_primary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_author_book_item_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_title_book_item_show"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/book_author"
+                    android:textColor="@color/color_secondary"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Rlayout_title_author_book_item_show"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:buttonTint="@color/color_primary" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+

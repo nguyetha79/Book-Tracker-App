@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Search.SearchFragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <ImageView
+           android:id="@+id/imageView7"
+           android:layout_width="395dp"
+           android:layout_height="633dp"
+           android:layout_marginTop="260dp"
+           android:layout_marginEnd="96dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:srcCompat="@drawable/untitled_design__7_" />
+
+       <ImageView
+           android:id="@+id/imageView8"
+           android:layout_width="306dp"
+           android:layout_height="531dp"
+           android:layout_marginStart="256dp"
+           android:layout_marginBottom="84dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:srcCompat="@drawable/untitled_design__10_" />
+
+       <RelativeLayout
+           android:id="@+id/Rlayout_search_book"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:id="@+id/Llayout_type"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:padding="15dp"
+               android:weightSum="5">
+
+               <EditText
+                   android:id="@+id/editText_search_book"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="4"
+                   android:ems="10"
+                   android:fontFamily="@font/poppins_medium"
+                   android:hint="Enter your book title"
+                   android:inputType="textPersonName"
+                   android:padding="16dp"
+                   android:textColor="@color/color_primary"
+                   android:textColorHint="@color/color_secondary"
+                   android:textSize="20sp"
+                   tools:ignore="Suspicious0dp"
+                   tools:layout_editor_absoluteX="28dp"
+                   tools:layout_editor_absoluteY="26dp" />
+
+               <ImageButton
+                   android:id="@+id/search_btn"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:backgroundTint="@color/color_primary"
+                   android:padding="16dp"
+                   app:srcCompat="@drawable/search_icon" />
+           </LinearLayout>
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/recyclerView_search_book"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_below="@id/Llayout_type"
+               android:layout_marginEnd="10dp" />
+
+           <ProgressBar
+               android:id="@+id/progressBar"
+               style="?android:attr/progressBarStyle"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerInParent="true"
+               android:indeterminate="true"
+               android:indeterminateTint="@color/color_primary"
+               android:indeterminateTintMode="src_atop"
+               android:visibility="gone" />
+
+       </RelativeLayout>
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Book Tracker App</string>
+
+    <string name="nav_drawer_open">Open Navigation drawer</string>
+    <string name="nav_drawer_close">Close Navigation drawer</string>
+    <string name="nav_user_name">User\'s name</string>
+    <string name="nav_user_email">User\'s email</string>
+
+    <string name="bigText_noti">“A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only one.” So which book will you be reading today?</string>
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="alarm">Reading time</string>
+    <string name="alarm_shortcut">Set time</string>
+
+    <string name="btn_continue">CONTINUE</string>
+    <string name="btn_login_now">LOGIN NOW</string>
+    <string name="btn_get_started">GET STARTED</string>
+    <string name="btn_go">G0</string>
+    <string name="btn_add">ADD</string>
+    <string name="btn_update">UPDATE</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_select">SELECT</string>
+    <string name="btn_detail">DETAIL</string>
+    <string name="btn_launch_map">Find nearby bookstore</string>
+
+    <string name="my_library">My Library</string>
+    <string name="book_title">The thorn birds</string>
+    <string name="book_author">Colleen McCullough</string>
+
+    <string name="tv_title">Title</string>
+    <string name="tv_status">Status</string>
+    <string name="tv_curr_page">Current Page</string>
+    <string name="tv_note">Note</string>
+    <string name="tv_progress">Progress</string>
+
+    <string-array name="status">
+        <item> </item>
+        <item>To read</item>
+        <item>Reading</item>
+        <item>Read</item>
+    </string-array>
+
+    <string name="status_reading">Reading</string>
+
+    <string name="tv_rating">Rating</string>
+    <string name="tv_pages">Pages</string>
+    <string name="tv_lang">Language</string>
+
+    <string name="tv_ex_rating">4.5</string>
+    <string name="tv_ex_pages">692</string>
+    <string name="tv_ex_curr_pages">344</string>
+    <string name="tv_ex_lang">EN</string>
+
+</resources>

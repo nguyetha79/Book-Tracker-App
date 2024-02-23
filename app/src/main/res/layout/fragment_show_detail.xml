@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.Home.ShowDetailFragment">
+
+    <LinearLayout
+        android:id="@+id/Llayout_detail_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/Rlayout_title_author_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp">
+
+            <ImageView
+                android:id="@+id/imageView_cover_book_infos"
+                android:layout_width="186dp"
+                android:layout_height="231dp"
+                android:layout_below="@id/tv_author_book_infos"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="22dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/tv_title_book_infos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/poppins_medium"
+                android:padding="3dp"
+                android:text="@string/book_title"
+                android:textAlignment="textStart"
+                android:textColor="@color/color_primary"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_author_book_infos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_title_book_infos"
+                android:layout_marginStart="12dp"
+                android:padding="3dp"
+                android:text="@string/book_author"
+                android:textAlignment="textStart"
+                android:textColor="@color/color_secondary"
+                android:textSize="19sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Rlayout_book_infos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_book_infos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                app:cardBackgroundColor="@color/cardview_book_info_bgr_color"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/Llayout_book_infos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"
+                    android:weightSum="3">
+
+                    <RelativeLayout
+                        android:id="@+id/Rlayout_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:id="@+id/Rlayout_num_rating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/star_rating"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_centerVertical="true"
+                                android:padding="3dp"
+                                app:srcCompat="@drawable/polygon_2" />
+
+                            <TextView
+                                android:id="@+id/num_rating"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_toEndOf="@id/star_rating"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:gravity="center"
+                                android:paddingLeft="2dp"
+
+                                android:paddingRight="2dp"
+                                android:text="@string/tv_ex_rating"
+                                android:textColor="@color/color_primary"
+                                android:textSize="25sp" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/tv_rating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/Rlayout_num_rating"
+                            android:fontFamily="@font/poppins_regular"
+                            android:paddingLeft="12dp"
+                            android:paddingTop="2dp"
+                            android:text="@string/tv_rating"
+                            android:textColor="@color/color_secondary"
+                            android:textSize="20sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/Rlayout_pages"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/num_pages"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/tv_ex_pages"
+                            android:textColor="@color/color_primary"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/tv_pages"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/num_pages"
+                            android:fontFamily="@font/poppins_regular"
+                            android:paddingLeft="12dp"
+                            android:paddingTop="2dp"
+                            android:text="@string/tv_pages"
+                            android:textColor="@color/color_secondary"
+                            android:textSize="20sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/Rlayout_lang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/lang_content"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/tv_ex_lang"
+                            android:textColor="@color/color_primary"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/tv_lang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/lang_content"
+                            android:fontFamily="@font/poppins_regular"
+                            android:paddingLeft="12dp"
+                            android:paddingTop="2dp"
+                            android:text="@string/tv_lang"
+                            android:textColor="@color/color_secondary"
+                            android:textSize="20sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/Llayout_status_book_infos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tv_status_book_infos"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingLeft="15dp"
+                android:paddingTop="7dp"
+                android:text="@string/tv_status"
+                android:textColor="@color/color_primary"
+                android:textSize="25sp" />
+
+            <RelativeLayout
+                android:id="@+id/Rlayout_curr_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView_curr_status_book_infos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="15dp">
+
+                    <TextView
+                        android:id="@+id/tv_curr_status_book_infos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="7dp"
+                        android:paddingRight="30dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/status_reading"
+                        android:textColor="@color/color_primary"
+                        android:textSize="20sp" />
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Llayout_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="15dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_progress_book_infos"
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingLeft="15dp"
+                android:paddingTop="7dp"
+                android:text="@string/tv_progress"
+                android:textColor="@color/color_primary"
+                android:textSize="25sp" />
+
+            <RelativeLayout
+                android:id="@+id/Rlayout_slider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:paddingLeft="34dp"
+                android:paddingTop="5dp">
+
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/slider"
+                    android:layout_width="198dp"
+                    android:layout_height="32dp"
+                    android:layout_centerVertical="true"
+                    android:valueFrom="0"
+                    android:valueTo="100"
+                    app:haloColor="@color/slider_tint"
+                    app:thumbColor="@color/color_primary"
+                    app:thumbElevation="2dp"
+                    app:trackColorActive="@color/color_primary"
+                    app:trackColorInactive="@color/slider_tint"
+                    app:trackHeight="6dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_note_book_infos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout
+                android:id="@+id/Rlayout_note_book_infos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/tv_note_book_infos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:text="@string/tv_note"
+                    android:textColor="@color/color_primary"
+                    android:textSize="25sp" />
+
+                <ScrollView
+                    android:id="@+id/scrollView_note_book_infos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_note_book_infos">
+
+                    <TextView
+                        android:id="@+id/tv_note_content_book_infos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_note_book_infos"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:hint="no previous note"
+                        android:textColor="@color/color_secondary"
+                        android:textSize="20sp" />
+                </ScrollView>
+
+                <Button
+                    android:id="@+id/btn_launch_map"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/scrollView_note_book_infos"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/custom_button"
+                    android:backgroundTint="@color/btn_map_color"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/btn_launch_map"
+                    android:textColor="@color/bgr_color"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/Llayout_btn_update_delete"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_update_book_infos"
+                android:layout_width="66dp"
+                android:layout_height="48dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                app:backgroundTint="@null"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingLeft="15dp"
+                android:paddingTop="8dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="@string/btn_update"
+                android:textColor="@color/bgr_color"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="66dp"
+                android:layout_height="48dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                app:backgroundTint="@null"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingLeft="15dp"
+                android:paddingTop="8dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="@string/btn_delete"
+                android:textColor="@color/bgr_color"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

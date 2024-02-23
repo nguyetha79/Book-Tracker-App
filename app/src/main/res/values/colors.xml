@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bgr_color">#EEEAE7</color>
+    <color name="nav_header_color">#fbddb9</color>
+    <color name="cardview_book_item_bgr_color">#B4BFC5</color>
+    <color name="cardview_book_item_bgr_color2">#bcb8a3</color>
+    <color name="cardview_book_info_bgr_color">#e6ccbd</color>
+
+    <color name="color_primary">#8D4C2E</color>
+    <color name="color_secondary">#8C8D4C2E</color>
+
+    <color name="slider_tint">#c8aea0</color>
+    <color name="add_bgr_color">#e1d6cf</color>
+    <color name="fragment_text_color">#686230</color>
+    <color name="btn_map_color">#A67554</color>
+
+</resources>
