@@ -53,7 +53,7 @@ Reading is a very good habit that one needs to develop in life. Good books can i
 <img src="./docs/set_reading_time.gif" width="25%" height="25%"/>
 
 
-### Ceate Shortcuts
+### Create Shortcuts
 - Shortcuts will help the users access screens in a faster way.
 
 <img src="./docs/create_shortcuts.gif" width="25%" height="25%"/>
